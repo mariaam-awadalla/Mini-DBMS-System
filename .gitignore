@@ -1,0 +1,13 @@
+# Qt / CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+*.user
+*.autosave
+
+# Qt Creator
+.qtcreator/
+
+# OS
+.DS_Store
+Thumbs.db
