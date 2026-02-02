@@ -45,21 +45,25 @@ STL (map, vector, filesystem)
 JSON (file-based storage)
 
 Git & GitHub
+## 📁 Project Structure
 
-📁 Project Structure
+```text
 MiniDBMS_GUI/
 │
 ├── core/
-│   ├── Database.cpp / Database.h
-│   ├── Parser.cpp / Parser.h
-│   ├── Table.cpp / Table.h
+│   ├── Database.cpp
+│   ├── Database.h
+│   ├── Parser.cpp
+│   ├── Parser.h
+│   ├── Table.cpp
+│   ├── Table.h
 │   ├── Column.h
 │   ├── Row.h
-│   └── Utils.cpp / Utils.h
+│   ├── Utils.cpp
+│   └── Utils.h
 │
 ├── data/
 │   └── school/
-│       
 │
 ├── main.cpp
 ├── mainwindow.cpp
@@ -67,6 +71,7 @@ MiniDBMS_GUI/
 ├── mainwindow.ui
 ├── CMakeLists.txt
 └── .gitignore
+```
 
 ⚙️ Architecture Overview
 
